@@ -31,6 +31,8 @@ multi MAIN ('s2', $_ is copy) {
 # Solution 3 - Slow
 multi MAIN ('s3', $_ is copy) {
     my @rule1 = ('a'..'z').rotor(3 => -2)>>.join;
+    # Same thing with a sequence
+    # my @rule1 = 'abc', { .comb[1] ~ .comb[2] ~ .comb[2].succ } ... 'xyz';
     repeat {++$_} until /@rule1/ and !/i|o|l/ and .match(/(\w)$0/, :g).elems >= 2;
     .say;
 }
