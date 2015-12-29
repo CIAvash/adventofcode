@@ -27,7 +27,7 @@ for lines() {
 my %item_weight;
 for %aunts -> %aunt {
     for %target -> %item {
-        (%item_weight{%aunt.key}++ if $_ ~~ %item.value) with %aunt.value{%item.key};
+        (%item_weight{%aunt.key}++ when %item.value) with %aunt.value{%item.key};
     }
 }
 
