@@ -17,4 +17,5 @@ Some solutions were inspired by these solutions:
 [Day 12](https://www.reddit.com/r/adventofcode/comments/3wh73d/day_12_solutions/cxwx3ut),
 [Day 13](https://www.reddit.com/r/adventofcode/comments/3wm0oy/day_13_solutions/cxx807l),
 [Day 14](https://www.reddit.com/r/adventofcode/comments/3wqtx2/day_14_solutions/cxyhti8),
-[Day 19](https://www.reddit.com/r/adventofcode/comments/3xflz8/day_19_solutions/cy4k8ca)
+[Day 19](https://www.reddit.com/r/adventofcode/comments/3xflz8/day_19_solutions/cy4k8ca),
+[Day 20](https://www.reddit.com/r/adventofcode/comments/3xjpp2/day_20_solutions/)
